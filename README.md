@@ -1,3 +1,19 @@
+# 1) Clone repo
+git clone https://github.com/Bubu631/Machine-Learning-Prediction-for-NYC-Property-Sales-.git
+cd Machine-Learning-Prediction-for-NYC-Property-Sales-
+
+# 2) Create & activate venv
+python -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+# .venv\Scripts\activate    # Windows PowerShell
+
+# 3) Install deps
+pip install -r requirements.txt
+
+# 4) Launch notebook
+jupyter notebook
+
+
 # NYC Property Sales — Predicting Real Estate Prices with Machine Learning
 
 This project builds an end-to-end **machine learning pipeline** to analyze and predict **New York City property sale prices** using historical transaction data across all five boroughs.
